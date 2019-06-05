@@ -19,7 +19,7 @@
       </header>
 
       <main>
-        <form action="" method="post">
+        <form action="#" method="post" id="main_form">
           <fieldset>
             <legend><h2>Contact Information</h2></legend>
               <label for="name">Full Name</label>
@@ -101,9 +101,25 @@
 
           <fieldset>
             <legend><h2>Newsletter</h2></legend>
-              <label for="newsletter"> Select the newsletters you wuld like to recieve</label>
-              <input type="checkbox"
+              <label for="newsletter"> Select the newsletters you would like to recieve</label>
+                <input type="checkbox" id="HTML_news" value="HTML" name="newsletter">
+                  <label for="HTML_news">HTML news</label>
+                <input type="checkbox" id="CSS_news" value="CSS" name="newsletter">
+                  <label for="CSS_news">CSS news</label>
+                <input type="checkbox" id="javascript_news" value="Javascript" name="newsletter">
+                  <label for="javascript__news">Javascript news</label>
+
+
+              <label> Newsletter format</label>
+                <input type="radio" id="HTML_format" value="HTML" name="format">
+                  <label for="HTML_format">HTML</label>
+                <input type="radio" id="plain_format" value="CSS" name="format">
+                  <label for="plain_format">Plain text</label>
+              <label for="other_topics">Other topics you'd like to hear about</label>
+              <textarea id="other_topics"></textarea>
           </fieldset>
+
+          <button type="submit" id="main_id">Sign Up</button>
 
         </form>
       </main>
