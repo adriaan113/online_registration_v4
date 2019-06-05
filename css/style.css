@@ -164,3 +164,24 @@ button{
 footer p{
   text-align: center;
 }
+
+/***PSEUDO STYLES***/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus{
+  outline: none;
+  border: 2px solid #536989;
+}
+
+/**************MEDIA QUERIES**************/
+
+@media screen and (min-width: 768px){
+
+.wrapper{
+  max-width: 700px;
+}
+
+
+}
