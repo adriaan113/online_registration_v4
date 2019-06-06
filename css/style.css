@@ -191,14 +191,19 @@ button:focus{
 label{
   display: inline-block;
   float: left;
+  clear: right;
   padding: 10px 0;
 }
 
 #first-fs
 input,select{
   width: 70%;
-  clear:right;
+  float: right;
 }
 
+input[id$=zip]{
+  border: 2px solid red;
+  width: 30%;
+}
 
 }
