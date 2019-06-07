@@ -23,7 +23,7 @@
       <main>
         <form action="#" method="post" id="main_form">
           <fieldset id="first-fs">
-            <legend><h2>Contact Information</h2></legend>
+            <legend>Contact Information</legend>
           <div class="first">
               <label for="name">Full Name</label>
                   <input type="text" id="name" name="user_name" required  placeholder="Required">
@@ -105,8 +105,8 @@
             </fieldset>
 
           <fieldset id="second-fs">
-            <legend><h2>Newsletter</h2></legend>
-              <label for="newsletter"> Select the newsletters you would like to recieve</label><!-- for or ID??? -->
+            <legend>Newsletter</legend>
+              <label id="newsletter"> Select the newsletters you would like to recieve</label><!-- for or ID??? -->
 
                 <input type="checkbox" id="HTML_news" value="HTML" name="newsletter">
                   <label for="HTML_news">HTML news</label>
@@ -118,7 +118,7 @@
                   <label for="javascript_news">Javascript news</label>
 
 
-              <label for="nl-format"> Newsletter format</label>
+              <label id="nl-format"> Newsletter format</label>
                 <input type="radio" id="HTML_format" value="HTML" name="format">
                   <label for="HTML_format">HTML</label>
                 <input type="radio" id="plain_format" value="CSS" name="format">
@@ -127,7 +127,7 @@
               <textarea id="other_topics" name="topics" placeholder="For instance Sass or maybe React?"></textarea>
           </fieldset>
 
-          <button type="submit" id="main_form">Sign Up</button>
+          <button type="submit" form="main_form">Sign Up</button>
 
         </form>
       </main>
