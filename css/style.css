@@ -18,6 +18,7 @@ body{
 .wrapper{
   margin: 0 auto;
   width: 90%;
+  padding: 0 10px;
   background-color: #fdff89;
 }
 
@@ -28,15 +29,16 @@ h1,p{
 }
 
 legend{
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-family: 'Merriweather', serif;
   font-weight: 700;
   margin: 25px 0;
+  padding-top: 30px;
 }
 
 p{
   color: #9e9e9e;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 label{
@@ -62,6 +64,11 @@ header h1{
   max-width: 500px;
   margin: 0 auto;
 }
+
+.signup-text h2{
+  font-size: 1.5em;
+}
+
 
 /***CONTACT INFORMATION***/
 
